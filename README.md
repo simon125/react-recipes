@@ -15,13 +15,17 @@ folders in pages are divided per route of app, each folder contain main file + s
 ├── pages
 | |
 | ├── page1
-| | ├── Page1
+| | ├── Page1.jsx
 | | ├── components
 | | | ├── Component1.jsx
 | | | ├── Component2.jsx
 | ├── page2
-| | ├── Page2
+| | ├── Page2.jsx
 | | ├── components
 | | | ├── Component1.jsx
 | | | ├── Component2.jsx
+├── query-hooks
+| ├── useUsers.jsx
+| ├── usePosts.jsx
+| |
 ```
