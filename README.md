@@ -7,19 +7,21 @@ simple app used as an example of different approach to use custom hooks
 there is folder components for layout components and controls and more complex components that are more generic and not specific for particular domain;
 folders in pages are divided per route of app, each folder contain main file + specific components for that page
 
-├── components <br/>
-| ├── Button.jsx <br/>
-| ├── Input.jsx <br/>
-| | <br/>
-├── pages <br/>
-| | <br/>
-| ├── page1 <br/>
-| | ├── Page1 <br/>
-| | ├── components <br/>
-| | | ├── Component1.jsx <br/>
-| | | ├── Component2.jsx <br/>
-| ├── page2 <br/>
-| | ├── Page2 <br/>
-| | ├── components <br/>
-| | | ├── Component1.jsx <br/>
-| | | ├── Component2.jsx <br/>
+```bash
+├── components
+| ├── Button.jsx
+| ├── Input.jsx
+| |
+├── pages
+| |
+| ├── page1
+| | ├── Page1
+| | ├── components
+| | | ├── Component1.jsx
+| | | ├── Component2.jsx
+| ├── page2
+| | ├── Page2
+| | ├── components
+| | | ├── Component1.jsx
+| | | ├── Component2.jsx
+```
